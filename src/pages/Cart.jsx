@@ -160,7 +160,7 @@ const Cart = () => {
       {orderSuccess && (
         <div className="fixed top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-rose-200 text-rose-700 px-8 py-4 rounded-lg shadow-lg z-50 transition-all duration-300 font-bold text-lg">
           <div className="flex items-center justify-center">
-            Order placed successfully!
+            Order placed successfully
           </div>
         </div>
       )}
