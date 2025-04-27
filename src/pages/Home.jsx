@@ -5,15 +5,16 @@ import BestSeller from '../components/BestSeller'
 import Policy from '../components/Policy'
 import NewsLetter from '../components/NewsLetter'
 import Footer from '../components/Footer'
-import Collection from './Collection'
 
 const Home = () => {
   return (
     <>
-
-      <Collection />
-
-     
+      <Hero/>
+      <Latest />
+      <BestSeller/>
+      <Policy />
+      <NewsLetter />
+     <Footer />
     </>
   )
 }
